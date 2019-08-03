@@ -1,1 +1,32 @@
 // Navigation code here
+
+.top{
+    max-width:800px;
+    width:100%;
+    margin: 0 auto;
+    .nav-theme(center);
+
+    @media @phone{
+        flex-direction: column;
+        align-content: center;
+        padding-left:5em;
+        width:100%;
+        margin: 0 auto;
+    }
+}
+
+nav{
+    max-width:800px;
+    margin: 0 auto;
+    .nav-theme(space-around);
+    padding-top: 15px;
+
+    a{ 
+        font-size:1.5rem;
+        padding-bottom: 10px;
+    }
+    @media @phone {
+        text-align:center;
+        width:100%
+    }
+}

@@ -1,1 +1,18 @@
 // Mixins Here
+.nav-theme(@justify){
+    display:flex;
+    justify-content: @justify;
+    background-color: @nav-bg;
+    color: @nav-font;
+    border: 1px soild @nav-border;
+    
+    h1{
+        font-size: 5rem;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 2rem;
+    }
+}
+
